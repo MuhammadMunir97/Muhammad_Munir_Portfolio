@@ -1,0 +1,293 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+#wrapper{
+	min-height: 830px;
+	margin:auto;
+	width: 52.6%;
+	background-color: darkslategray;
+}
+#header{
+	min-height: 40px;
+	width: 800px;
+	background-color: rgb(238,233,239);
+}
+#name{
+	width: 400px;
+	font: 25px Comic Sans MS, Comic Sans;
+	font-weight: bold;
+	display: inline-block;
+	padding:5px;
+	padding-left: 15px;
+}
+#nickname{
+	width: 300px;
+	font: 16px Arial, sans-serif;
+	display: inline-block;
+	font-weight: bold;
+	padding-left:76px;
+}
+#picture{
+	height: 220px;
+	width: 360px;
+	background-image: url("myPhoto.jpg");
+	background-size: contain;
+	border-style: solid;
+  	border-color: #e1c3d6;
+  	border-width: 5px;
+	margin: 15px;
+	margin-right: 0px;
+	display: inline-block;
+}
+#about{
+	vertical-align: top;
+	height: 230px;
+	width: 370px;
+	background-color: #e1c3d6;
+	margin: 15px;
+	display: inline-block;
+}
+#hd{
+	vertical-align: center;
+	min-height: 20px;
+	width: 356px;
+	color: white;
+	font: 16px Arial, sans-serif;
+	padding: 7px;
+	background-image: linear-gradient(#dac3d1,rgb(116, 108, 117));		
+}
+#bod{
+	min-height: 180px;
+	width: 356px;
+	color: black;
+	font: 13px Arial, sans-serif;
+	padding: 7px;
+}
+#mainbody{
+	min-height: 400px;
+	min-width: 800px;
+}
+.specification{
+	min-height: 450px;
+	width: 239px;
+	background-color: #e1c3d6;
+	display: inline-block;
+	vertical-align: top;
+}
+#spec1{
+	display: inline-block;
+	margin: 15px;
+	margin-right: 15px;
+	vertical-align: 
+}
+#spec2{
+	display: inline-block;
+}
+#spec3{
+	display: inline-block;
+	margin-left: 15px;
+}
+.head{
+	height: 23px;
+	width: 221px;
+	color: white;
+	font: 16px Arial, sans-serif;
+	padding:9px;
+	background-image: linear-gradient(#dac3d1,rgb(116, 108, 117));		
+}
+#pic1{
+	height: 123px;
+	width: 239px;
+	background-color: #e1c3d6;
+	background-image: url("lamode.png");
+	background-size:contain;
+}
+#pic2{
+	height: 123px;
+	width: 239px;
+	background-color: #e1c3d6;
+	background-image: url("familycontacts.png");
+	background-size:contain;
+}
+#pic3{
+	height: 123px;
+	width: 239px;
+	background-color: #e1c3d6;
+	background-image: url("fiveEleven.png");
+	background-size:contain;
+}
+.info{
+	height: 123px;
+	width: 225px;
+	font: 12px Arial, sans-serif;
+	padding: 7px;
+	background-color: #e1c3d6;
+}
+.techTitle{
+	min-height: 20px;
+	width: 221px;
+	color: white;
+	font: 14px Arial, sans-serif;
+	padding:9px;
+	background-image: linear-gradient(#dac3d1,rgb(116, 108, 117));		
+}
+.images {
+	height: 100px;
+	min-width: 2px;
+	padding:4px;
+	background-color: #e1c3d6;
+}
+.button{
+	height: 25px;
+	margin: auto;
+	min-width: 30px;
+	text-align: center;
+	background-color: #976161;
+	color: white;
+	border-radius: 8px;
+	padding-top: 3px;
+}
+#but1{
+	margin:auto;
+	width:30%;
+	margin-bottom:10px;
+}
+#but2{
+	margin:auto;
+	width:50%;
+	margin-bottom:10px;
+}
+#but3{
+	margin:auto;
+	width:33%;
+	margin-bottom:10px;
+}
+#footer{
+	min-height: 50px;
+	width: 800px;
+	background-color: rgb(238,233,239);
+}
+.underLine{
+	text-decoration: underline;
+}
+.image{
+	height: 35px;
+	width:35px;
+	margin: 4px;
+	border-radius: 100px;
+	background-size: contain;
+	display: inline-block;
+}
+#img1{
+	background-image: url("php.png");
+}
+#img2{
+	background-image: url("codeigniter.png");
+}
+#img3{
+	background-image: url("jQuery.png");
+}
+#img4{
+	background-image: url("ajax.png");
+}
+#img5{
+	background-image: url("mysql.png");
+}
+#img6{
+	background-image: url("HTML.png");
+}
+#img7{
+	background-image: url("CSS.png");
+}
+#img8{
+	background-image: url("bootstrap.png");
+}
+#img9{
+	background-image: url("JavaScript.png");
+}
+#img10{
+	background-image: url("mongodb.png");
+}
+#img11{
+	background-image: url("expressjs.png");
+}
+#img12{
+	background-image: url("angular.png");
+}
+#img13{
+	background-image: url("nodejs.png");
+}
+#img14{
+	background-image: url("HTML.png");
+}
+#img15{
+	background-image: url("CSS.png");
+}
+#img16{
+	background-image: url("socket.png");
+}
+#img17{
+	background-image: url("python.png");
+}
+#img18{
+	background-image: url("django.png");
+}
+#img19{
+	background-image: url("dThree.png");
+}
+#img20{
+	background-image: url("angular.png");
+}
+#img21{
+	background-image: url("sqlite.png");
+}
+#img22{
+	background-image: url("HTML.png");
+}
+#img23{
+	background-image: url("CSS.png");
+}
+#img24{
+	background-image: url("JavaScript.png");
+}
+#img25{
+	background-image: url("materialize.png");
+}
+#top{
+	margin:auto;
+	width:27%;
+}
+#bottom{
+	margin:auto;
+	width:45%;
+}
+.smallImage{
+	height: 20px;
+	width: 20px;
+	margin: 4px;
+	border-radius: 100px;
+	background-size: contain;
+	display: inline-block;
+	margin-right: 60px;
+	vertical-align: top;
+}
+#i1{
+	background-image: url("github.png");
+}
+#i2{
+	background-image: url("linkedin.png");
+}
+#i3{
+	background-image: url("twitter.png");	
+}
+#i4{
+	background-image: url("codepen.png");	
+}
+.tStyle{
+	text-decoration: underline;
+	font-style: italic;
+	display: inline-block;
+	margin-left:25px;
+}
